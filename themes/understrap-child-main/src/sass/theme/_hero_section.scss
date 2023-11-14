@@ -1,0 +1,82 @@
+.heroWrap{
+    padding: 280px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    .subtitleWrap{
+        h4{
+            font-family: 'Barlow Regular';
+            color: $GrayishBlue;
+            font-size: 16px;
+            letter-spacing: 4px;
+        }
+        span{
+            color: #fff;
+            background: $veryDarkBlue;
+            padding: 7px 7px 7px 9px;
+            border-radius: 30px;
+            letter-spacing: 1px;
+            font-family: 'Barlow Bold';
+        }
+    }
+    .headingWrap{
+        h1{
+            color: $veryDarkBlue;
+            font-size: 75px;
+        }
+    }
+    .subtitle2Wrap{
+        p{
+            color: $DarkGrayishBlue;
+            margin-bottom: 60px;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+    }
+    .buttonsWrap{
+        p{
+            color: $GrayishBlue;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 0;       
+        }
+    }
+    img{
+        position: absolute;
+        right: -150px;
+        top: 210px;
+    }
+    .m-a-0{
+        margin: auto 0;
+    }
+    
+    .btn-primary_c:hover{
+        background: #ff8181;
+        border: 1px solid #ff8181;
+    }
+
+    .btn-primary_c{
+        font-family: 'Barlow Bold' !important;
+        padding: 10px 28px;
+        background: #ff5e5e;
+        border: 1px solid #ff5e5e;
+        color: #fff;
+    }
+}
+  
+.heroWrap:after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: hsl(207, 33%, 95%);
+    border-radius: 13%;
+    right: 0;
+    z-index: -1;
+    top: -40%;
+    right: -10%;
+ }
+
+ #exampleModal{
+    z-index: 999999;
+    margin-top: 160px;
+ }

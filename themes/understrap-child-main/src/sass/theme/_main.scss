@@ -1,0 +1,33 @@
+$veryDarkBlue: hsl(230, 29%, 20%);
+$DarkGrayishBlue: hsl(230, 11%, 40%);
+$GrayishBlue: hsl(231, 7%, 65%);
+$LightGrayishBlue: hsl(207, 33%, 95%);
+
+
+h1, h2, h3, h4, h5, h6, button, .navbar-nav li{
+    font-family: "BarlowCondensed Bold";
+}
+
+body{
+    font-family: "Barlow Regular";
+    font-size: 18px;
+}
+
+.navbar-nav {
+    li{
+        padding: 0 15px;
+    }
+    .nav-link{
+        color: $veryDarkBlue;
+        letter-spacing: 1px;
+    }
+    .nav-link:hover{
+        text-decoration: underline
+    }
+    .diffc, .dotmenu{
+        .nav-link{
+            color: $GrayishBlue;
+        }
+    }
+}
+

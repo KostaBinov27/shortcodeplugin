@@ -1,0 +1,44 @@
+@media only screen and (max-width: 900px) {
+    .navbar-toggler-icon{
+        background-image: url(../images/icon-hamburger.svg);
+    }
+    #navbarNavDropdown{
+        background: #fff;
+        text-align: center;
+        box-shadow: -2px 4px 13px -1px rgba(0,0,0,0.66);
+        -webkit-box-shadow: -2px 4px 13px -1px rgba(0,0,0,0.66);
+        -moz-box-shadow: -2px 4px 13px -1px rgba(0,0,0,0.66);
+        padding: 10px 0;
+        margin-top: 30px;
+    }
+    .heroWrap{
+        padding-top: 400px;
+        padding-bottom: 0;
+        .imgWrap{
+            img{
+                top: 150px;
+                right: 0;
+            }
+        }
+        .headingWrap {
+            h1{
+                font-size: 45px;
+            }
+        }
+        .buttonsWrap {
+            p{
+                letter-spacing: 1px;
+                font-size: 16px;
+            }
+        }
+    }
+    .heroWrap:after{
+        content: "";
+        width: 60%;
+        height: 80%;
+        right: 0;
+        z-index: -1;
+        top: -51%;
+        right: -10%;
+    }
+  }
